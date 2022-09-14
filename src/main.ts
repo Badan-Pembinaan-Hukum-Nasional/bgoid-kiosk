@@ -4,6 +4,7 @@ import QrGuestbook from './assets/guestbook.png'
 import socialAccountsComponent from "./socials";
 import Logos from "./logos";
 import Plyr from "plyr";
+import "plyr/dist/plyr.css"
 
 let date = new Date();
 
