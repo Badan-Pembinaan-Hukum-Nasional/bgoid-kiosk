@@ -121,12 +121,12 @@ meter {
 
 .video-wrapper{
   position: relative;
-  border-radius: 3rem;
+  border-radius: 2rem;
   background: white;
   display: block;
   min-width: 100%;
   overflow: hidden;
-  padding: 3rem;
+  padding: 1rem;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(17.2px);
@@ -256,6 +256,10 @@ a.touchpoint-links--items{
   .wrapper{
     padding: 5rem;
     row-gap: 5rem;
+  }
+
+  .video-wrapper{
+    padding: 2rem;
   }
 
   .welcome-text{
