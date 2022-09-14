@@ -5,7 +5,7 @@ import socialAccountsComponent from "./socials";
 import Logos from "./logos";
 import Plyr from "plyr";
 
-
+let date = new Date();
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="wrapper">
@@ -38,6 +38,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <section class="logos">
         ${Logos()}
     </section>
+    <footer>
+        <p>&copy; BPHN ${date.getFullYear()}</p><p>Crafted by <a href="https://fransfp.dev">Us</a></p>
+    </footer>
   </div>`
 
 const player = new Plyr('#player', {

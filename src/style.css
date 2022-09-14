@@ -107,16 +107,16 @@ meter {
   row-gap: 2rem;
   justify-content: flex-start;
   align-items: center;
-  padding: 2.5rem 1rem;
-  background-size: 400% 400%;
+  padding: 2.5rem 1rem 1rem 1rem;
+  background-size: 200% 200%;
   animation: gradient 15s ease infinite;
 }
 
 .welcome-text{
   font-family: 'Syne', sans-serif;
   color: var(--text-color);
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .video-wrapper{
@@ -135,6 +135,7 @@ meter {
 }
 
 .external-links{
+  position: relative;
   --external-link-column: 2;
   display: grid;
   grid-template-columns: repeat(var(--external-link-column), 1fr);
@@ -194,11 +195,19 @@ figure.external-links--card figcaption{
   grid-column-gap: 1rem;
   grid-row-gap: 0px;
   width: 100%;
+  justify-content: center;
+
 }
 
-a.touchpoint-links--items{
-  display: block;
+.touchpoint-links--item{
+  display: flex;
+  justify-content: center;
   pointer-events: bounding-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.touchpoint-links--item:hover{
+  transform: scale(1.1);
 }
 
 .logos{
@@ -237,6 +246,22 @@ a.touchpoint-links--items{
 
 .logos--item__longer{
   object-fit: contain;
+}
+
+footer{
+  display: flex;
+  font-size: 0.6em;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: var(--text-color);
+  font-weight: 600;
+  font-family: 'Syne', sans-serif;
+  line-height: 1;
+}
+
+footer a{
+  color: coral;
 }
 
 @keyframes gradient {
