@@ -137,6 +137,7 @@ meter {
 .welcome-text--head__greet{
   font-size: 1.5rem;
   font-weight: 800;
+  color: var(--text-color);
 }
 
 .welcome-text--head__second{
