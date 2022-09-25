@@ -43,7 +43,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         ${Logos()}
     </section>
     <footer>
-        <p>&copy; BPHN ${date.getFullYear()}</p><p>Crafted by <a href="https://fransfp.dev">Us</a></p>
+        <p>&copy; BPHN ${date.getFullYear()}</p><p>Powered by <a href="https://vercel.com">Vercel</a> ,  Crafted by <a href="https://fransfp.dev">Us</a></p>
     </footer>
   </div>`
 
