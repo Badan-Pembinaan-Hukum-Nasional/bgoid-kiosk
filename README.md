@@ -1,5 +1,7 @@
 # BPHN KIOSK
 
+A Kiosk like touchpoint placed at lobby of BPHN main building.
+
 ## How to run this project
 1. Clone this repository
 2. Install dependencies with `npm install` or `yarn`
