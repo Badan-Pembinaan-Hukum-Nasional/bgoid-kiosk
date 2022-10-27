@@ -1,6 +1,6 @@
 import './style.css'
-import QrSurvey from './assets/qr_survei.png'
-import QrGuestbook from './assets/guestbook.png'
+import QrSurvey from './assets/qr_survey.png'
+import QrGuestbook from './assets/qr_guestbook.png'
 import socialAccountsComponent from "./socials";
 import Logos from "./logos";
 import Plyr from "plyr";
@@ -30,7 +30,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <figcaption>Buku Tamu</figcaption>
           </figure>
           <figure class="external-links--card">
-            <a target="_blank" href="https://survei.balitbangham.go.id/layanan/450645ee-10d6-11ed-c0e0-323033393538/3ff48bda-4b87-11eb-a51f-323334333033/3e9dbc9e-b776-11e9-b8b2-313834333239/32ce8a8a-e65e-11e9-a50d-313131393436">
+            <a target="_blank" href="https://bit.ly/3Dv5eOi">
                 <img src="${QrSurvey}" alt="Link Survei IPK & IKM">
             </a>            
             <figcaption>Survei IKM & IPK</figcaption>
